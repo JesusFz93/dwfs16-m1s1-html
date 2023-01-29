@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios</title>
+  </head>
+  <body>
+    <header>
+      <h1>Seccion de <i>Formularios</i></h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="./listas.html">Listas</a></li>
+        <li><a href="./tablas.html">Tablas</a></li>
+        <li><a href="#">Formularios</a></li>
+        <li><a href="./multimedia.html">Multimedia</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h2>Existen varios tipos de formularios</h2>
+      <article>
+        <h3>Formulario simple</h3>
+        <p>Un simple formulario para ingresar datos.</p>
+        <form action="#">
+          <legend>Informacion personal:</legend>
+          <label for="nombre">Nombre</label>
+          <input type="text" name="nombre" id="nombre" />
+          <label for="apellido">Apellido</label>
+          <input type="text" name="apellido" id="apellido" />
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" />
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" />
+          <label for="lenguaje">Idioma:</label>
+          <select id="lenguaje" name="lenguaje">
+            <option value="espanol">Espanol</option>
+            <option value="ingles">Ingles</option>
+            <option value="frances">Frances</option>
+            <option value="aleman">Aleman</option>
+          </select>
+          <label>Elije tu lenguaje favorito</label>
+          <input type="radio" name="lenguaje" id="html" value="html" />
+          <label for="html">HTML</label>
+          <input type="radio" name="lenguaje" id="css" value="css" />
+          <label for="css">CSS</label>
+          <input type="radio" name="lenguaje" id="js" value="js" />
+          <label for="js">JS</label>
+
+          <p>En que te transportas</p>
+          <input type="checkbox" name="transporte" id="carro" value="carro" />
+          <label for="carro">Carro</label>
+          <input type="checkbox" name="transporte" id="moto" value="moto" />
+          <label for="moto">Moto</label>
+          <input type="checkbox" name="transporte" id="bici" value="bici" />
+          <label for="bici">Bici</label>
+          <input type="checkbox" name="transporte" id="pie" value="pie" />
+          <label for="pie">Pie</label>
+
+          <label for="comentario">Comentario</label>
+          <textarea
+            name="comentario"
+            id="comentario"
+            cols="30"
+            rows="10"
+            style="width: 200px; height: 100px"
+          ></textarea>
+          <input type="submit" value="Enviar" />
+        </form>
+      </article>
+    </main>
+    <aside>
+      <article>
+        <h3>Informacion adicional</h3>
+        <p>Enlaces interesantes</p>
+        <nav>
+          <ul>
+            <li>
+              <a
+                href="https://www.w3schools.com/html/html_forms.asp"
+                target="_blank"
+                >w3schools</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </article>
+    </aside>
+    <footer>
+      <p>Este es el pie de pagina</p>
+      Copyrigth &copy;
+      <script>
+        document.write(new Date().getFullYear());
+      </script>
+    </footer>
+  </body>
+</html>

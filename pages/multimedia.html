@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multimedia</title>
+  </head>
+  <body>
+    <header>
+      <h1>Seccion de <i>Multimedia</i></h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="./listas.html">Listas</a></li>
+        <li><a href="./tablas.html">Tablas</a></li>
+        <li><a href="./formularios.html">Formularios</a></li>
+        <li><a href="#">Multimedia</a></li>
+      </ul>
+    </nav>
+    <div class="principal">
+      <main>
+        <h2>
+          Las etiquetas de multimedia nos permiten insertar imagenes, videos,
+          sonidos.
+        </h2>
+        <article>
+          <h3>Imagenes</h3>
+          <p>
+            La etiqueta img sirve para poder visualizar imagenes en la pagina.
+          </p>
+          <div>
+            <p>Imagen en la nube</p>
+            <img
+              src="https://www.w3schools.com/html/pic_trulli.jpg"
+              alt="Trulli"
+              width="500"
+              height="333"
+            />
+          </div>
+          <div>
+            <p>Imagen local</p>
+            <img
+              src="../assets/imgs/pic_trulli.jpg"
+              alt="Trulli"
+              width="500"
+              height="333"
+            />
+          </div>
+        </article>
+        <article>
+          <h3>Videos</h3>
+          <p>
+            La etiqueta video sirve para poder visualizar videos en la pagina.
+          </p>
+          <div>
+            <p>Video en la nube</p>
+            <video
+              width="320"
+              height="240"
+              controls
+              src="https://www.w3schools.com/html/mov_bbb.mp4"
+            ></video>
+          </div>
+          <div>
+            <p>Video local</p>
+            <video
+              width="320"
+              height="240"
+              controls
+              src="../assets/videos/mov_bbb.mp4"
+            ></video>
+          </div>
+        </article>
+        <article>
+          <h3>Audio</h3>
+          <p>La etiqueta audio sirve para poder ingresar audio en la pagina.</p>
+          <div>
+            <p>Audio en la nube</p>
+            <audio controls>
+              <source src="../assets/audios/effect.wav" type="audio/wav" />
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+          <div>
+            <p>Audio local</p>
+            <audio controls>
+              <source src="../assets/audios/effect.wav" type="audio/wav" />
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </article>
+      </main>
+      <aside>
+        <article>
+          <h3>Informacion adicional</h3>
+          <p>Enlaces interesantes</p>
+          <nav>
+            <ul>
+              <li>
+                <a
+                  href="https://www.w3schools.com/html/html_tables.asp"
+                  target="_blank"
+                  >w3schools</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </article>
+      </aside>
+    </div>
+
+    <footer>
+      <p>Este es el pie de pagina</p>
+      Copyrigth &copy;
+      <script>
+        document.write(new Date().getFullYear());
+      </script>
+    </footer>
+  </body>
+</html>
