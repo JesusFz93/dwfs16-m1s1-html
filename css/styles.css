@@ -1,0 +1,70 @@
+header {
+    background: rgb(255, 138, 138);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+body > nav {
+    background: rgb(55, 56, 51);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+body > nav > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body > nav > ul > li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+body > nav > ul > li > a {
+    color: #fff;
+    text-decoration: none;
+}
+
+body > nav > ul > li > a:hover {
+    color: #000;
+}
+
+.principal  {
+    background: rgb(58, 42, 42);
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+main {
+    flex-grow: 2;
+    
+}
+
+main > article {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+main > article > h2 {
+    margin: 0;
+}
+
+main > article > p {
+    margin: 0;
+}
+
+aside {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+
+    flex-grow: 1;
+}
